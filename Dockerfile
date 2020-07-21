@@ -10,4 +10,4 @@ WORKDIR /
 
 EXPOSE 8051
 
-CMD['python', 'app.py']
+CMD ['python', 'app.py']
