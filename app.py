@@ -11,7 +11,7 @@ import pandas as pd
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+app = dash.Dash(__name__, external_stylesheets=external_stylesheets, requests_pathname_prefix="/", routes_pathname_prefix="/")
 
 # assume you have a "long-form" data frame
 # see https://plotly.com/python/px-arguments/ for more options
