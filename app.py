@@ -20,8 +20,8 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 # Global Variables
 # =============================================================================
 # For downloading files from HDFS
-from hdfs import InsecureClient
-client_hdfs = InsecureClient(os.environ["HDFS_URL"], user = "hdfs")
+# from hdfs import InsecureClient
+# client_hdfs = InsecureClient(os.environ["HDFS_URL"], user = "hdfs")
 url = os.environ["APP_URL"]
 
 # Getting model names
