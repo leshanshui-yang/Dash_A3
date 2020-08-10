@@ -1,4 +1,4 @@
-FROM python:3.7
+FROM python:3.8
 
 USER root
 
@@ -11,4 +11,4 @@ WORKDIR /
 
 EXPOSE 8051
 
-CMD ['python', 'app.py']
+CMD ["python", "app.py"]
